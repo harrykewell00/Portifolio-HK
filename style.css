@@ -149,26 +149,21 @@ footer {
     text-align: center;
   }
 
-  nav ul {
-    flex-wrap: wrap;
-    justify-content: center;
+  .logo-title {
+    font-size: 1.5em;
   }
 
- .logo-title {
-  font-size: 2em;
-  margin: 0;
-  text-align: center;
-}
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-.subtitle {
-  font-size: 1.2em;
-  text-align: center;
-  margin-bottom: 20px;
-  color: #ccc;
-}
-
-  .hero-text {
+  .hero-text h2 {
     font-size: 1.2em;
-    padding: 0 10px;
+  }
+
+  .hero-text p {
+    font-size: 1em;
   }
 }
