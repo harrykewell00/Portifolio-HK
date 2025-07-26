@@ -133,6 +133,15 @@ footer {
   color: white;
   font-weight: bold;
 }
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.6); /* ou branco se o fundo for escuro */
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 30px 10px;
+}
 @media (max-width: 600px) {
   header {
     flex-direction: column;
